@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    background-color: gray;
+    padding: 25px;
+}
+.general {
+    background-color: white;
+    padding: 25px;
+    width: 800px;
+    margin: 10px auto;
+    border-radius: 50px;
+}
+header {
+    margin: 15px;
+    display:flex;
+    flex-direction: row;
+
+   
+}
+header > img {
+    margin: 0px 10px ;
+}
+header > h3 {
+    font-size: 1.5rem;
+}
+nav {
+    align-self: center;
+    flex-grow: 2;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu > li {
+    margin: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+.menu > li > a:link {
+    color: blueviolet;
+}
+.menu > li > a:hover {
+    color: rgb(5, 182, 23);
+}
+.menu > li > a:visited {
+    color: rgb(182, 8, 14);
+}
+.menu > li > a:focus {
+    color: rgb(176, 176, 6);
+}
+
+main {
+    overflow:hidden;
+}
+
+
+aside {
+    margin-left: -30px;
+    float:left;
+    width: 30%;
+}
+aside ul {
+    list-style-type: none;
+    
+}
+aside li {
+    color: darkblue;
+    background-color: yellow;
+    font-weight: bold;
+}
+section {
+    margin: 15px;
+    float:right;
+    width: 70%;
+}
+section ul li {
+    display: none;
+}
+section h3 {
+    color: rgb(39, 7, 195);
+    font-weight: bold;
+}
+section > span {
+    font-style: italic;
+}
+section > article {
+    border-bottom: 1px solid grey;
+}
+section > article:last-child {
+    border-bottom: 0px;
+
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    border-top: 1px solid black;
+    margin: 10px;
+
+}
+.social {
+    display: flex;
+    flex-direction: row;
+}
+.social h4 {
+    margin: 5px auto;
+}
+
+@media (max-width:800px) {
+    .general {
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .banner img {
+        display: none;
+    }
+    aside {
+        float: none;
+        width: 100%;
+    }
+    section {
+        float: none;
+        width: 100%;
+    }
+    section ul li {
+        display: block;
+        color: darkblue;
+        background-color: yellow;
+        font-weight: bold;
+        margin-left: -40px;
+        width: 100%;
+    }
+
+
+    
+}

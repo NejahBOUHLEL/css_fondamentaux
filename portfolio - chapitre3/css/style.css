@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Kanit&display=swap');
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 8px;
+
+}
+header {
+  background-color: bisque;
+  margin: 15px 15px 15px 15px;
+  /*margin-bottom: 0px;*/
+  padding: 0px 15px 0px 15px;
+  /*border-width: 3px;
+  border-style: dashed;
+  border-color: black; */
+  border-radius: 15px 50px;
+
+  border: 3px dashed black  ;
+
+  
+
+}
+main {
+    background-color: yellow;
+    margin: 0px 15px 15px 15px;
+    /*margin-top: 0px;*/
+    padding:15px;
+    border-radius: 15px 50px;
+
+  border: 3px dashed black  ;
+  width: auto;
+  height: auto;
+  box-sizing: border-box;
+
+
+
+}
+
+footer {
+    background-color: rgb(234, 234, 234);
+    margin: 15px;
+    border-radius: 15px 50px;
+
+  border: 3px dashed black  ;
+  font-size: 1.5rem;
+
+}
+
+ 
+div{
+    /*
+    background-color: beige;
+    background-image: url('../images/olia-gozha.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+    */
+    background:  beige url('../images/olia-gozha.jpg') repeat center scroll;
+
+}
+ 
+
+h1{
+    color:rgb(226, 220, 43);
+    font-family: 'Kanit', sans-serif;
+    font-size: 3em;
+}
+h1:hover {
+    background-color: HSL(300,50%,75%,.5);
+}
+h3 {
+
+    color: aquamarine;
+    font-size: 1.5rem;
+
+}
+h1,h2,h3,h4,h5,h6 {
+  /*  background-color: rgb(13, 9, 1); */
+}
+p{
+    color:rgb(0, 4, 255);
+   font-size: 2em;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#resume {
+    background-color: darkgray;
+    color: white;
+    font-style: italic;
+}
+.maclasse {
+    background-color: rgba(246, 249, 194, 0.928);
+    color: rgb(2, 2, 2);
+    
+
+}
+a{
+    color: aqua;
+    font-size: 2em;
+}
+a:hover {
+    color: blue;
+}
+a:visited {
+    color: rgb(249, 44, 12);
+}
+a:focus {
+    background-color: cornflowerblue;
+}
+a:active {
+    background-color: chartreuse;
+}
+[target="_blank"] {
+    color: brown;
+}
+.flex-conteneur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(219, 198, 198);
+    color:white;
+}
+.flex-conteneur > p {
+    border: 2px solid black;
+}
+@media (max-width:800px) {
+    .flex-conteneur {
+        flex-direction: column;
+        background-color: yellow;
+    }
+}
+
+.grille-conteneur {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+.grille-conteneur > img {
+    align-items: center;
+    padding: auto;
+}
+
+* {
+    font-weight: normal;
+    margin: 0px;
+
+}
+
+
